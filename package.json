@@ -1,0 +1,22 @@
+{
+  "name": "mayankpatel.github.io",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mayank Patel",
+    "email": "maxy.ermayank@gmail.com"
+  },
+  "description": "Portfolio",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "contributors": {
+    "Mayank Patel": "maxy.ermayank@gmail.com"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

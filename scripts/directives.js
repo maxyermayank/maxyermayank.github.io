@@ -1,0 +1,1 @@
+var angapp = angular.module('directives', []);

@@ -1,0 +1,37 @@
+{
+  "name": "mayankpatel.github.io",
+  "version": "1.0.0",
+  "authors": [
+    "Mayank Patel <maxy.ermayank@gmail.com>"
+  ],
+  "description": "Portfolio",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "contributors": {
+    "Mayank Patel": "maxy.ermayank@gmail.com"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.0",
+    "angular-aria": "~1.4.0",
+    "angular-material": "~0.9.7",
+    "angular-messages": "~1.4.0",
+    "angular-resource": "~1.4.0",
+    "angular-sanitize": "~1.4.0",
+    "angular-touch": "~1.4.0",
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.3",
+    "ui-router": "~0.2.15",
+    "underscore": "~1.8.3"
+  }
+}
