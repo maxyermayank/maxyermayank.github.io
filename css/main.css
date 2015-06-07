@@ -1,11 +1,9 @@
-html {
+html, body {
 	height: 100%;
 	width: 100%;
 	position: relative;
 	padding-top: 0px !important;
-}
-
-body {
+ 	font-family: "Kurale", sans-serif;
 	/*padding-top: 70px;*/
 	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
