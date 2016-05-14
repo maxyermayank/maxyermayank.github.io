@@ -14,9 +14,9 @@
   "contributors": {
     "Mayank Patel": "maxy.ermayank@gmail.com"
   },
-  "devDependencies": {
+  "dependencies": {
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.1.0"
   }
 }

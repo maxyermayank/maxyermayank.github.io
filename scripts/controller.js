@@ -47,14 +47,16 @@ angapp.controller('AppController', function($scope, $mdDialog, $mdSidenav, $mdBo
 	    });
 	 };
 
-	 $scope.skills = ['Ant', 'Play Framework', 'Java', 'J2ee', 'Spring', 'AngularJS',
-	 				'Hibernate', 'Tomcat', 'JUnit', 'JSP', 'Maven', 'Primefaces',
-	 				'JSF', 'JMS', 'XML', 'HTML', 'REST', 'MYSQL', 'MongoDB',
-	 				'Oracle', 'CSS', 'PL/SQL', 'ActiveMQ', 'PostgresSQL', 'Vertica',
-	 				'JMX', 'C', 'C++', 'MS Project', 'ETL', 'App Dynamic', 'Artifactory',
-	 				'Weblogic', 'Terracotta', 'JMeter', 'Oracle Application Server',
-	 				'Mockito', 'Easy Mock', 'Jenkins', 'Oracle JDeveloper',
-	 				'Agile Project Management', 'Git', 'Svn', 'Cvs', 'Sbt', 'Scala',
-	 				'Gulp', 'Grunt', 'Gradle', 'Brunch', 'Jasmine', 'Karma',
-	 				'Istanbul', 'Protractor'];
+	 $scope.skills = ['ActiveMQ', 'Ajax', 'AngularJS', 'Ant', 'Apache JMeter', 'App Dynamics',
+	 									'Artifactory', 'C', 'C++', 'CSS3', 'CVS', 'Docker', 'ETL', 'Eclipse',
+										'Edit Plus', 'Flex', 'Flex Builder', 'Github', 'Gradle', 'Grunt', 'Gulp',
+										'HTML5', 'Hibernate', 'Intellij Idea', 'Ionic Framework', 'J2EE', 'JMS',
+										'JMX', 'JQuery', 'JSF', 'JSON', 'JScape MFT Server', 'JUnit', 'Jasmine',
+										'Java', 'Jenkins', 'Macromedia Dream Weaver', 'Maven', 'Microsoft Office',
+										'Microsoft Project', 'Mongo', 'NGinx', 'Net Beans', 'Oracle Jdeveloper',
+										'Play Framework', 'Protractor', 'Putty', 'REST', 'Robo Mongo', 'SBT',
+										'SQL Manager', 'SVN', 'SauceLab', 'Spring', 'Spring Web Flow', 'Sublime',
+										'Sun Java Wireless Toolkit', 'Sun Office', 'Swagger', 'Terracotta',
+										'Ultra Edit', 'VMware Fusion', 'Visual Basics', 'Web Sphere', 'WinCVS',
+										'WinSCP', 'XML', 'Xcode'];
 });
