@@ -29,8 +29,8 @@ angapp.controller('AppController', function($scope, $mdDialog, $mdSidenav, $mdBo
 	      controller: function($scope, $mdBottomSheet){
 			  $scope.items = [
 		            { name: 'Share on Twitter', icon: 'fa-twitter', class: 'md-primary md-hue-2', url: 'https://twitter.com/maxy_ermayank'},
-		            { name: 'Share on Google+', icon: 'fa-google-plus', class: 'md-warn md-hue-2', url: 'https://plus.google.com/u/0/115205217580713327517/posts/p/pub'},
-		            { name: 'Share on Facebook', icon: 'fa-facebook', class: 'md-primary', url: 'https://www.facebook.com/maxy.ermayank'},
+		            // { name: 'Share on Google+', icon: 'fa-google-plus', class: 'md-warn md-hue-2', url: 'https://plus.google.com/u/0/115205217580713327517/posts/p/pub'},
+		            // { name: 'Share on Facebook', icon: 'fa-facebook', class: 'md-primary', url: 'https://www.facebook.com/maxy.ermayank'},
 		            { name: 'Share on Linkedin', icon: 'fa-linkedin', class: 'md-primary', url: 'https://www.linkedin.com/in/mayank-patel-b9141210'},
 		            { name: 'Github', icon: 'fa-github-alt', class: 'md-default', url: 'https://github.com/maxyermayank'},
 		            { name: 'Codepen', icon: 'fa-codepen', class: 'md-default', url: 'http://codepen.io/maxyermayank/'},
