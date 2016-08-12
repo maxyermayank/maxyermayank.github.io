@@ -3,7 +3,7 @@ html, body {
 	width: 100%;
 	position: relative;
 	padding-top: 0px !important;
- 	font-family: "Kurale", sans-serif;
+ 	font-family: "Kurale", sans-serif !important;
 	/*padding-top: 70px;*/
 	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -15,4 +15,8 @@ footer {
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak,
 	.x-ng-cloak {
 	display: none !important;
+}
+
+.md-chips md-chip {
+ 	font-family: "Kurale", sans-serif !important;
 }
