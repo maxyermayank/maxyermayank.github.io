@@ -34,7 +34,8 @@ angapp.controller('AppController', function($scope, $mdDialog, $mdSidenav, $mdBo
 		            { name: 'Share on Linkedin', icon: 'fa-linkedin', class: 'md-primary', url: 'https://www.linkedin.com/in/mayank-patel-b9141210'},
 		            { name: 'Github', icon: 'fa-github-alt', class: 'md-default', url: 'https://github.com/maxyermayank'},
 		            { name: 'Codepen', icon: 'fa-codepen', class: 'md-default', url: 'http://codepen.io/maxyermayank/'},
-		            { name: 'Plunker', icon: 'fa-arrow-circle-down', class: 'md-default', url: 'http://plnkr.co/users/maxyermayank'}
+		            { name: 'Plunker', icon: 'fa-arrow-circle-down', class: 'md-default', url: 'http://plnkr.co/users/maxyermayank'},
+								{ name: 'Medium', icon: 'fa fa-medium', class: 'md-default', url: 'https://medium.com/@maxy_ermayank'}
 		          ];
 			  $scope.listItemClick = function($index) {
 			    var clickedItem = $scope.items[$index];
@@ -48,13 +49,15 @@ angapp.controller('AppController', function($scope, $mdDialog, $mdSidenav, $mdBo
 	 };
 
 	 $scope.skills = ['ActiveMQ', 'Ajax', 'AngularJS', 'Ant', 'Apache JMeter', 'App Dynamics',
-	 									'Artifactory', 'C', 'C++', 'CSS3', 'CVS', 'Docker', 'ETL', 'Eclipse',
+	 									'Artifactory', 'Amazon Web Services (AWS)', 'C', 'C++', 'CSS3', 'CVS',
+										'Cloud Native Architecture', 'Docker', 'ETL', 'Eclipse',
 										'Edit Plus', 'Flex', 'Flex Builder', 'Github', 'Gradle', 'Grunt', 'Gulp',
 										'HTML5', 'Hibernate', 'Intellij Idea', 'Ionic Framework', 'J2EE', 'JMS',
 										'JMX', 'JQuery', 'JSF', 'JSON', 'JScape MFT Server', 'JUnit', 'Jasmine',
 										'Java', 'Jenkins', 'Macromedia Dream Weaver', 'Maven', 'Microsoft Office',
-										'Microsoft Project', 'Mongo', 'NGinx', 'Net Beans', 'Oracle Jdeveloper',
-										'Play Framework', 'Protractor', 'Putty', 'REST', 'Robo Mongo', 'SBT',
+										'Microsoft Project', 'Microservice Architecture', 'Mongo', 'NGinx',
+										'Net Beans', 'Oracle Jdeveloper', 'Play Framework', 'Protractor', 'Putty',
+										'REST', 'Robo Mongo', 'Single Page Application (SPA)', 'SBT',
 										'SQL Manager', 'SVN', 'SauceLab', 'Spring', 'Spring Web Flow', 'Sublime',
 										'Sun Java Wireless Toolkit', 'Sun Office', 'Swagger', 'Terracotta',
 										'Ultra Edit', 'VMware Fusion', 'Visual Basics', 'Web Sphere', 'WinCVS',
