@@ -48,18 +48,21 @@ angapp.controller('AppController', function($scope, $mdDialog, $mdSidenav, $mdBo
 	    });
 	 };
 
-	 $scope.skills = ['ActiveMQ', 'Ajax', 'AngularJS', 'Ant', 'Apache JMeter', 'App Dynamics',
-	 									'Artifactory', 'Amazon Web Services (AWS)', 'C', 'C++', 'CSS3', 'CVS',
-										'Cloud Native Architecture', 'Docker', 'ETL', 'Eclipse',
-										'Edit Plus', 'Flex', 'Flex Builder', 'Github', 'Gradle', 'Grunt', 'Gulp',
-										'HTML5', 'Hibernate', 'Intellij Idea', 'Ionic Framework', 'J2EE', 'JMS',
-										'JMX', 'JQuery', 'JSF', 'JSON', 'JScape MFT Server', 'JUnit', 'Jasmine',
-										'Java', 'Jenkins', 'Macromedia Dream Weaver', 'Maven', 'Microsoft Office',
-										'Microsoft Project', 'Microservice Architecture', 'Mongo', 'NGinx',
-										'Net Beans', 'Oracle Jdeveloper', 'Play Framework', 'Protractor', 'Putty',
-										'REST', 'Robo Mongo', 'Single Page Application (SPA)', 'SBT',
-										'SQL Manager', 'SVN', 'SauceLab', 'Spring', 'Spring Web Flow', 'Sublime',
-										'Sun Java Wireless Toolkit', 'Sun Office', 'Swagger', 'Terracotta',
-										'Ultra Edit', 'VMware Fusion', 'Visual Basics', 'Web Sphere', 'WinCVS',
-										'WinSCP', 'XML', 'Xcode'];
+	 $scope.skills = [ 'Software Architectural Design', 'Cloud Native Architecture', 'Microservices Architecture',
+											'API Design', 'Digital Platform Strategy', 'Credential Store', 'Reactive Architecture',
+											'DevOps', 'Containerization', 'CI/CD', 'Platform as a Services', 'Mentoring', 'Leadership',
+											'Progressive Web Applications (PWA)','Scala', 'Information Architecture', 'Consul', 'Vault', 'GitLab', 
+											'Grafana', 'NodeManager', 'cAdvisor', 'RabbitMQ', 'Single Page Application (SPA)', 
+											'ActiveMQ', 'Angular', 'Ant', 'Apache JMeter', 'App Dynamics',
+											'Artifactory', 'Amazon Web Services (AWS)', 'C', 'C++', 'CSS3', 'CVS',
+											'Docker', 'ETL', 'Eclipse', 'Github', 'Gradle', 'Grunt', 'Gulp',
+											'HTML5', 'Hibernate', 'Intellij Idea', 'Ionic Framework', 'J2EE', 'JMS',
+											'JMX', 'JQuery', 'JSF', 'JSON', 'JScape MFT Server', 'JUnit', 'Jasmine',
+											'Java', 'Jenkins', 'Maven', 'Microsoft Productivity Suite',
+											'Microsoft Project', 'Mongo', 'NGinx', 'Net Beans', 'Oracle Jdeveloper', 
+											'Play Framework', 'Protractor', 'Putty', 'REST', 'Robo Mongo', 
+											'SBT', 'SQL Manager', 'SVN', 'SauceLab', 'Spring', 'Spring Web Flow', 'Sublime',
+											'Sun Java Wireless Toolkit', 'Sun Office', 'Swagger', 'Terracotta',
+											'Ultra Edit', 'Vertica', 'VMware Fusion', 'Visual Basics', 'Web Sphere', 'WinCVS',
+											'WinSCP', 'XML', 'Xcode'];
 });
